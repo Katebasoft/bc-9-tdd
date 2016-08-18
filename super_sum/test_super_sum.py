@@ -14,7 +14,7 @@ class MySuperSum(unittest.TestCase):
 		self.assertEqual(super_sum(10, 5, 6, 9),30, "wrong answer")
 		self.assertEqual(super_sum([10, 5], 5),20, "wrong answer")
 		self.assertEqual(super_sum([5, 6], [4, 5], 10),30, "wrong answer")
-		self.assertEqual(super_sum(0,2,[-9,2,1]))
+		self.assertEqual(super_sum(0,2,[-9,2,1]),-4, "wrong answer")
 
 	def test_non_numbers(self):
 		'''

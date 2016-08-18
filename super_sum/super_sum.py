@@ -1,6 +1,5 @@
-def super_sum(*argv):
+def super_sum():
 	pass
-
 
 
 
