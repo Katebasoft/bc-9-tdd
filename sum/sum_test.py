@@ -13,7 +13,7 @@ class MySumTests(unittest.TestCase):
 		'''
 		result = my_sum(5,10)
 		self.assertEqual(result, 15)
-		self.assertEqual(my_sum(10,15),25)
+		self.assertEqual(my_sum(0.5,1.2),1.7)
 		self.assertEqual(my_sum(-9,2), -7)
 
 	def test_non_numbers(self):
