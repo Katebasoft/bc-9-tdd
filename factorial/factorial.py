@@ -9,5 +9,8 @@ def factorial(num):
 		    while num > 1:
 		      	fact *= num
 		      	num-=1
-	  return fact
+	  if fact < 1000:
+	  	return fact
+	  else:
+	  	return "Doesn't allow big numbers"
       

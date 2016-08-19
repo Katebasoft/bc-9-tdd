@@ -13,6 +13,9 @@ class TestFactorial(unittest.TestCase):
     def test_empty(self):
         self.assertEqual(factorial(''), 0, "Wrong Answer")
 
+    def test_empty(self):
+        self.assertEqual(factorial(100),"Doesn't allow big numbers")
+
      
 
 if __name__ == '__main__':
