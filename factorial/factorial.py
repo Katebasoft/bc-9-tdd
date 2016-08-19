@@ -1,5 +1,7 @@
 
 def factorial(num):
+	  if num == '':
+	  	return 0
 	  fact = 1
 	  if num < 2:
 	    	return 1

@@ -11,7 +11,7 @@ class TestFactorial(unittest.TestCase):
         self.assertEqual(factorial(3), 6, "Wrong Answer")
 
     def test_empty(self):
-        self.assertEqual(factorial(5), 120, "Wrong Answer")
+        self.assertEqual(factorial(''), 0, "Wrong Answer")
 
      
 
