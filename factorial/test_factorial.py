@@ -10,6 +10,9 @@ class TestFactorial(unittest.TestCase):
     def test_factorial(self):
         self.assertEqual(factorial(3), 6, "Wrong Answer")
 
+    def test_empty(self):
+        self.assertEqual(factorial(5), 120, "Wrong Answer")
+
      
 
 if __name__ == '__main__':
